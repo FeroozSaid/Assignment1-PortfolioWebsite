@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact Me - Ferooz Said</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)">
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 960px)">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="banner">
+            <h1>Contact Me</h1>
+        </div>
+        
+        <div id="left-column">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="about.html" class="button">About Me</a></li>
+                <li><a href="projects.html" class="button">Projects</a></li>
+                <li><a href="contact.html" class="button">Contact Me</a></li>
+            </ul>
+        </div>
+        
+        <div id="right-column">
+            <form action="mailto:ferooz.said@ontariotechu.net" method="post" enctype="text/plain" name="contactform">
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" size="40" required>
+                </p>
+                
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" size="40" required>
+                </p>
+                
+                <p>
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone" size="40" placeholder="123-456-7890">
+                </p>
+                
+                <p>
+                    <label for="comments">Message:</label><br>
+                    <textarea id="comments" name="comments" cols="40" rows="5" required></textarea>
+                </p>
+                
+                <p>
+                    <input type="submit" value="Send Message">
+                    <input type="reset" value="Clear Form">
+                </p>
+            </form>
+        </div>
+        
+        <div class="clean"></div>
+        
+        <div id="footer">
+            <p>Email: ferooz.said@ontariotechu.net</p>
+            <p>&copy; 2025 Ferooz Said. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
