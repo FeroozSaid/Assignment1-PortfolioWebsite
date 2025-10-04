@@ -17,6 +17,7 @@ body {
 #banner {
     height: 120px;
     background-color: #3498db;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
 }
 
 #banner h1 {
@@ -60,6 +61,7 @@ body {
 .button {
     display: block;
     background-color: #3498db;
+    background: linear-gradient(45deg, #3498db, #2980b9);
     color: white;
     padding: 10px;
     margin: 5px 0;
@@ -69,7 +71,7 @@ body {
 }
 
 .button:hover {
-    background-color: #2980b9;
+    background: linear-gradient(45deg, #2980b9, #3498db);
 }
 
 .clean {
