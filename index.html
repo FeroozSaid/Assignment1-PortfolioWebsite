@@ -1,35 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Ferooz Said - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
-    <link rel="stylesheet" href="tablet.css" media="(min-width: 769px) and (max-width: 1024px)">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)">
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 960px)">
 </head>
 <body>
-    <header>
-        <nav>
+    <div id="wrapper">
+        <div id="banner">
+            <h1>Ferooz Said - Portfolio</h1>
+        </div>
+        
+        <div id="left-column">
+            <h3>Navigation</h3>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="about.html" class="button">About Me</a></li>
+                <li><a href="projects.html" class="button">Projects</a></li>
+                <li><a href="contact.html" class="button">Contact Me</a></li>
             </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="welcome">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hello! I'm Ferooz Said. I'm an IT Security and Networking student at Ontario Tech University.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>Email: ferooz.said@ontariotechu.net</p>
-        <p>&copy; 2025 Ferooz Said. All rights reserved.</p>
-    </footer>
+        </div>
+        
+        <div id="right-column">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I'm Ferooz Said, a second-year IT Security and Networking student at Ontario Tech University.</p>
+            <p>I'm passionate about cybersecurity, networking, health/fitness.</p>
+        </div>
+        
+        <div class="clean"></div>
+        
+        <div id="footer">
+            <p>Email: ferooz.said@ontariotechu.net</p>
+            <p>&copy; 2025 Ferooz Said. All rights reserved.</p>
+        </div>
+    </div>
 </body>
 </html>
