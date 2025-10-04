@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#wrapper {
+    width: 100%;
+}
+
+#left-column {
+    float: none;
+    width: 100%;
+    min-height: auto;
+}
+
+#right-column {
+    float: none;
+    width: 100%;
+    min-height: auto;
+}
+
+.button {
+    font-size: large;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+form input, form textarea {
+    font-size: large;
+}

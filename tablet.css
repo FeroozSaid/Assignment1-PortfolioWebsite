@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#wrapper {
+    width: 100%;
+}
+
+#left-column {
+    width: 25%;
+}
+
+#right-column {
+    width: 70%;
+}
+
+.box {
+    width: 45%;
+    float: left;
+    margin: 10px;
+}
